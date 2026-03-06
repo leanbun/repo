@@ -1,0 +1,15 @@
+CZl0kZFBNykjQMTt
+https://rkpwoqnlskjsbpxskssq.supabase.co
+!~
+postgresql://postgres:[YOUR-PASSWORD]@db.rkpwoqnlskjsbpxskssq.supabase.co:5432/postgres
+
+github token : [GITHUB_TOKEN - .env 또는 로컬에 보관]
+
+
+claude mcp add-json vercel '{
+  "command": "npx",
+  "args": ["-y", "vercel-mcp-server"],
+  "env": {
+    "VERCEL_API_TOKEN": "[VERCEL_TOKEN - 환경변수에 보관]"
+  }
+}'
